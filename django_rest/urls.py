@@ -21,6 +21,6 @@ import core
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('core.urls')),
-    path('auth-api/', include('rest_framework.urls')),
+    path('auth-api/', include('rest_framework.urls', namespace='core')),
 
 ]
