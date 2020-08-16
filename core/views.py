@@ -53,4 +53,3 @@ class EmployeeDetail(APIView):
 
 
 # Function Based views
-    # here  
